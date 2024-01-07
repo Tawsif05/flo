@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .banner-text h1 {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+button {
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 18px 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+.banner-text * {
+    margin-bottom: 25px;
+}
+
+.banner .banner-img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.section-heading * {
+    margin-bottom: 25px;
+}
+
+#featured {
+    padding: 100px 0px;
+}
+
+.flower {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.section-contant .flower img {
+    background-color: #e79aaa;
+    border-radius: 300px 300px 0px 0px;
+    width: 100%;
+}
+
